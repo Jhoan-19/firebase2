@@ -60,7 +60,7 @@ const App = () => {
               setCurrentId(item.id);
               setUpdateItem(item.name);
             }}>Editar</button>
-            <button onClick={() => deleteItemById(item.id)}>Eliminar</button>
+            <button onClick={() => deleteItemById(item.id)}>Elimina</button>
           </li>
         ))}
       </ul>
