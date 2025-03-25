@@ -164,7 +164,7 @@ const App = () => {
         onChange={(e) => setPlayerName(e.target.value)}
       />
       <h2>Score: {score}</h2>
-      {gameOver && <h2 style={{ color: "red" }}>Game Over</h2>}
+      {gameOver && <h2 style={{ color: "red" }}>Game Over :(</h2>}
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${COLUMNS}, 20px)`, gap: "1px", justifyContent: "center" }}>
         {grid.map((row, rowIndex) =>
           row.map((cell, colIndex) => {
